@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Background images  */
+body {
+  background-image: url(images/kerala.jpg);
+}
+/* Tourisum Logo */
+img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+.parent {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 30px;
+  margin-right: 70px;
+}
+.child4 {
+  border-style: solid;
+  border-color: #32cd32;
+}
+.child5 {
+  background-color: #32cd32;
+}
+.container {
+  font-family: sans-serif;
+  font-style: oblique 10deg;
+  font-size: 35px;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 220px;
+  margin-left: 40%;
+}
+.item2 {
+  padding-left: 18px;
+}
+.parent2 {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  color: aliceblue;
+  gap: 8px;
+  margin-left: 42%;
+  margin-top: 5px;
+}
+.one {
+  border-style: solid;
+  border-color: #32cd32;
+}
+.two {
+  background-color: #32cd32;
+}
